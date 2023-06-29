@@ -1,0 +1,91 @@
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 850px;
+  background-image: url(../../public/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+
+  .mainContainer {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10rem;
+
+    .mainContent {
+      min-width: 330px;
+      flex: 1 1 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2rem;
+
+      .mainIcon {
+        position: relative;
+        width: 50%;
+        background-color: #E2EAED;
+        color: #1F1534 ;
+        border-radius: 50rem;
+        padding: 0.59rem 3rem;
+        font-size: 0.75rem;
+        font-weight: 700;
+      }
+
+      .mainIcon img {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      .mainTitle {
+        color: #242F51;
+        font-weight: 700;
+        font-size: 3rem;
+      }
+
+      .mainDescription {
+        color: #616368;
+        font-size: 1.2rem;
+      }
+
+      .mainButtonGroup {
+        display: flex;
+        gap: 2rem;
+
+        .mainButtonOne {
+          background-color: #1f00d4;
+          color: #fff;
+          padding: .6rem 1.8rem;
+          border-radius: 50rem;
+          font-weight: 500;
+          font-size: 1rem;
+        }
+
+        .mainButtonTwo {
+          color: #1f00d4;;
+          padding: .6rem 1.8rem;
+          border-radius: 50rem;
+          font-weight: 400;
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .mainImage {
+      min-width: 330px;
+      flex: 1 1 50%;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .mainImage img {
+      width: 350px;
+      height: 630px;
+    }
+  }
+}
